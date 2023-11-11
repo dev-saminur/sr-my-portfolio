@@ -16,13 +16,13 @@ module.exports = {
         "2xl": "1400px",
       },
       fontFamily: {
-        primaryFont: ["Rubik", "sans-serif"],
+        primaryFont: ["Open Sans", "sans-serif"],
       },
       colors: {
         linkColor: "#15BEC5",
         headerColor: "#C0FFFF",
         btnColor: "#15BEC5",
-        black: "#000606",
+        black: "#000807",
         gray: "#2E3D44",
       },
     },

@@ -29,7 +29,7 @@ const Navbar = () => {
                       <Navlinks
                         key={i}
                         links={item.link}
-                        className="text-base  text-headerColor hover:text-linkColor relative after:absolute after:content-[''] after:top-7 after:left-0  after:w-[0] after:h-[2px] hover:after:w-[100%] after:bg-linkColor   after:transition-all after:ease-in after:duration-300 after:rounded-2xl
+                        className="text-base  text-headerColor hover:text-linkColor relative after:absolute after:content-[''] after:top-7 after:left-0  after:w-[0] after:h-[2px] hover:after:w-[100%] after:bg-linkColor   after:transition-all after:ease-in after:duration-300 transition-all ease-in duration-150 after:rounded-2xl
 
                       "
                       >
