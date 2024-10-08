@@ -19,6 +19,7 @@ module.exports = {
         primaryFont: ["Open Sans", "sans-serif"],
       },
       colors: {
+        whiteColor: "#f8f8f8",
         linkColor: "#15BEC5",
         headerColor: "#C0FFFF",
         btnColor: "#15BEC5",
