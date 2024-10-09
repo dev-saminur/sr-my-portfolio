@@ -5,7 +5,7 @@ export const MenuItems = [
   },
   {
     title: "About",
-    link: "/",
+    link: "/pages/about",
   },
   {
     title: "Service",
