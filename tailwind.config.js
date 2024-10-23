@@ -7,6 +7,16 @@ module.exports = {
   ],
   theme: {
     extend: {
+      keyframes: {
+        borderMove: {
+          "0%": { transform: "translateX(-5%)" },
+          "100%": { transform: "translateX(-25%)" },
+        },
+      },
+      animation: {
+        borderMove: "borderMove 0.75s linear infinite",
+      },
+
       screens: {
         xs: "350px",
         sm: "576px",
