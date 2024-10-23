@@ -3,6 +3,7 @@ import Container from "../Container/Container";
 import AboutBg from "../image/aboutbg.jpg";
 import AboutBgimg from "../image/photosize.png";
 import Image from "next/image";
+import Buttons from "../Buttons/Button";
 
 const About = () => {
   return (
@@ -37,9 +38,10 @@ const About = () => {
                 eos saepe ipsa cupiditate accusantium voluptatibus quidem nam,
                 reprehenderit,
               </p>
-              <button class="bg-gray px-7 py-3 text-lg text-headerColor hover:bg-transparent tracking-widest border-2 border-gray hover:border-gray font-normal mt-8 mr-6  rounded-2xl transition-all ease-in duration-150 uppercase">
-                download my cv
-              </button>
+
+              <div className="mt-8">
+                <Buttons className="tracking-widest" title=" download my cv" />
+              </div>
             </div>
           </div>
         </Container>
