@@ -1,4 +1,5 @@
 import React from "react";
+import Buttons from "../Buttons/Button";
 
 const Content = () => {
   return (
@@ -8,12 +9,10 @@ const Content = () => {
       <h4 className="text-4xl text-headerColor font-normal">
         Front-end Developer
       </h4>
-      <button className="bg-gray px-7 py-3 text-lg text-headerColor hover:bg-transparent tracking-widest	 border-2 border-gray hover:border-gray font-normal mt-8 mr-6  rounded-2xl transition-all ease-in duration-150">
-        Hire me
-      </button>
-      <button className="bg-gray px-7 py-3 text-lg text-headerColor hover:bg-transparent tracking-widest	 border-2 border-gray hover:border-gray font-normal rounded-2xl transition-all ease-in duration-150">
-        Contact Me
-      </button>
+      <div className="mt-10">
+        <Buttons className="mr-10" title="Hire me" />
+        <Buttons title=" Contact Me" />
+      </div>
     </div>
   );
 };
