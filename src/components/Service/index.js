@@ -12,6 +12,16 @@ const Service = () => {
         <Container>
           <div className="text-center mb-10">
             <Header title="My services" />
+            <div className="grid grid-cols-12">
+              <div className="grid col-start-4 col-end-10 mt-12 mb-4">
+                <p className="text-[38px] px-10 text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest">
+                  Failure is The Power{" "}
+                  <span className="bg-designation-gradient text-transparent  bg-clip-text">
+                    that Gives Success
+                  </span>
+                </p>
+              </div>
+            </div>
           </div>
           <div className="grid grid-cols-3 gap-8">
             {serviceData.map((item, i) => (
