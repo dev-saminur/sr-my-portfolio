@@ -39,18 +39,6 @@ const Service = () => {
             ))}
           </div>
         </Container>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque officia
-          explicabo laboriosam. Eligendi, architecto. Aut totam ducimus eius
-          expedita consequuntur aperiam rem quibusdam quidem, impedit sit iure
-          esse odio velit.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque officia
-          explicabo laboriosam. Eligendi, architecto. Aut totam ducimus eius
-          expedita consequuntur aperiam rem quibusdam quidem, impedit sit iure
-          esse odio velit.
-        </p>
       </div>
     </>
   );
