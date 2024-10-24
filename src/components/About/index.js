@@ -1,9 +1,9 @@
 import React from "react";
 import Container from "../Container/Container";
 import AboutBg from "../image/aboutbg.jpg";
-import AboutBgimg from "../image/photosize.png";
 import Image from "next/image";
 import Buttons from "../Buttons/Button";
+import Header from "../Header/Header";
 
 const About = () => {
   return (
@@ -23,9 +23,7 @@ const About = () => {
               </div>
             </div>
             <div className="left">
-              <h1 className="text-[60px] text-sectionColor font-bold capitalize leading-[1.2] mb-6">
-                About me!
-              </h1>
+              <Header title=" About me!" className="mb-6" />
               <p className="text-whiteColor text-base font-normal mb-4 text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in
                 eos saepe ipsa cupiditate accusantium voluptatibus quidem nam,
