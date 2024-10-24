@@ -1,12 +1,15 @@
 import React from "react";
 import Container from "../Container/Container";
+import Header from "../Header/Header";
 
 const Portfolio = () => {
   return (
     <>
-      <div className="portfolio">
+      <div className="py-24">
         <Container>
-          <div>this is container</div>
+          <div className="text-center">
+            <Header title="portfolio" />
+          </div>
         </Container>
       </div>
     </>
