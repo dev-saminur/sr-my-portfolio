@@ -21,7 +21,11 @@ const PortSlider = () => {
         />
         <div className="px-10 absolute text-center  group-hover:bottom-[20%]  w-full group-hover:block z-50 transition-transform duration-500 ease-out">
           <Flex className="justify-center items-center gap-8">
-            <Link href="/" className="text-xl font-bold  capitalize ">
+            <Link
+              target="_blank"
+              href="https://github.com/dev-saminur/sr-my-portfolio"
+              className="text-xl font-bold  capitalize "
+            >
               <div className="flex items-center justify-center">
                 <div className="relative group">
                   <button className="relative inline-block p-px bg-name-gradient  hover:bg-designation-gradient  font-semibold leading-6 text-black  shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
@@ -59,7 +63,7 @@ const PortSlider = () => {
             </Link>
           </Flex>
           <Header
-            title="  React js webpage with html css tailwind css"
+            title="  Natto personal portfolio with Next.js and sass"
             className="text-3xl mt-6   pointer before:w-[40px] before:h-[30px] rounded-full before:bottom-[-10%] before:right-[15%] leading-10 z-[999]"
           />
         </div>
