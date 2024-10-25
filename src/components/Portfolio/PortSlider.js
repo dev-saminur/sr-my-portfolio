@@ -10,8 +10,8 @@ import Header from "../Header/Header";
 const PortSlider = () => {
   return (
     <>
-      <div className="rounded-md h-[550px] relative group overflow-hidden transition-all duration-500  hover:-translate-y-6  delay-300	ease-in-out">
-        <div className="absolute inset-0 opacity-80 bg-black w-full h-full z-10 transform translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out"></div>
+      <div className="rounded-xl h-[520px] relative group overflow-hidden transition-all duration-500  hover:-translate-y-6  delay-300	ease-in-out">
+        <div className="absolute inset-0 opacity-80 bg-[#000807] w-full h-full z-10 transform translate-y-full group-hover:translate-y-[58%] transition-transform duration-500 ease-out"></div>
         <Image
           src={PortImage}
           alt="coding"
@@ -19,7 +19,7 @@ const PortSlider = () => {
           height={600}
           className="hover:rotate-[5deg] group-hover:scale-125  rounded-md transition-all duration-300 ease-linear h-full"
         />
-        <div className="px-10 absolute text-center  group-hover:bottom-[20%]  w-full group-hover:block z-50 transition-transform duration-500 ease-out">
+        <div className="px-10 absolute text-center  group-hover:bottom-[5%]  w-full group-hover:block z-50 transition-transform duration-500 ease-out">
           <Flex className="justify-center items-center gap-8">
             <Link
               target="_blank"
@@ -43,7 +43,11 @@ const PortSlider = () => {
                 </div>
               </div>
             </Link>
-            <Link href="/" className="text-xl font-bold text-white  capitalize">
+            <Link
+              target="_blank"
+              href="https://sass-portfolio-tan.vercel.app/"
+              className="text-xl font-bold text-white  capitalize"
+            >
               <div className="flex items-center justify-center">
                 <div className="relative group">
                   <button className="relative inline-block bg-designation-gradient  hover:bg-name-gradient p-px font-semibold leading-6 text-black  shadow-2xl cursor-pointer rounded-xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
