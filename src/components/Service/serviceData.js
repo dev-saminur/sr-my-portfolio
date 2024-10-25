@@ -5,7 +5,8 @@ export const serviceData = [
   {
     image: Coder,
     title: "Mern Stack Development",
-    subtitle: "Create a platform with the best and coolest quality from us.",
+    subtitle:
+      "Hen our power of choice is untrammelled and when nothing prevents our being able.",
   },
   {
     image: Webdevelopment,
