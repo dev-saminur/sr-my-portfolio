@@ -27,7 +27,7 @@ const Service = () => {
             {serviceData.map((item, i) => (
               <div
                 key={i}
-                className="group bg-gradient-to-tr  from-teal-400 via-blue-500 to-purple-500 rounded-xl p-[2px] hover:transition-all hover:duration-500 hover:ease-linear  hover:bg-gradient-to-r hover:from-blue-400 hover:via-purple-500 hover:to-teal-500 hover:animate-gradientAnimate delay-300	ease-linear"
+                className="group bg-gradient-to-tr  from-teal-400 via-blue-500 to-purple-500 rounded-xl p-[2px] hover:transition-all hover:duration-500 hover:ease-linear hover:skew-y-2  hover:bg-gradient-to-r hover:from-blue-400 hover:via-purple-500 hover:to-teal-500 hover:animate-gradientAnimate delay-300	ease-in-out"
               >
                 <div className="py-14 px-10 text-center bg-[#000807]  rounded-xl ">
                   <div className="mb-5 w-[76px] h-[76px] flex justify-center items-center bg-[#1F303E] group-hover:bg-gradient-to-tr group-hover:bg-opacity-5  from-teal-600 via-[#3b83f65d] to-[#a855f763 ] rounded-full mx-auto group-hover:transition-all group-hover:duration-300 group-hover:ease-linear">
