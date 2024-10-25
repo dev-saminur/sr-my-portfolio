@@ -17,7 +17,7 @@ const Service = () => {
                 <p className="text-[38px] px-10 text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest">
                   Failure is The Power{" "}
                   <span className="bg-designation-gradient text-transparent  bg-clip-text ">
-                    that Gives Success
+                    that Gives Success !
                   </span>
                 </p>
               </div>
