@@ -10,13 +10,13 @@ const Portfolio = () => {
         <div className="px-[100px]">
           <div className="text-center mb-10">
             <Header title="My portfolio" />
+            <div className="mt-8">
+              <h4 className="text-3xl  text-transparent bg-clip-text bg-designation-gradient  relative text-sectionColor font-bold capitalize leading-[1.2] before:absolute before:bottom-0 before:left-[6%] before:content-['']  before:w-[35px] before:h-[20px]  before:bg-name-gradient  pb-6 inline-block before:rounded-t-lg  before:rounded-b-2xl before:rounded-l-3xl before:rounded-r-lg mt-6">
+                some of my projects
+              </h4>
+            </div>
             <div className="grid grid-cols-12">
-              <div className="grid col-start-4 col-end-10 mt-12 mb-7">
-                <Header
-                  title="  Some of my projects"
-                  className="text-3xl mt-6   pointer before:w-[40px] before:h-[30px] rounded-full before:bottom-[-30%] before:right-[46%] leading-10 z-[999]"
-                />
-              </div>
+              <div className="grid col-start-4 col-end-10 mt-12 mb-7"></div>
             </div>
           </div>
           <div className="grid grid-cols-3 gap-8">
