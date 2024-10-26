@@ -9,11 +9,12 @@ import { MenuItems } from "./MenuData";
 
 import Link from "next/link";
 import Search from "./Search";
+import Buttons from "../Buttons/Button";
 
 const Navbar = () => {
   return (
     <>
-      <div>
+      <div className="fixed top-0 left-0 right-0  bg-[#000] z-50">
         <div className="bg-gray py-3">
           <Container>
             <Flex className="items-center justify-between">
@@ -22,9 +23,9 @@ const Navbar = () => {
                   <Image src={Logo} alt="Logo" />
                 </Link>
               </div>
-              <div className="w-[80%]">
+              <div className="w-[70%]">
                 <Navitems>
-                  <Flex className="justify-center gap-10">
+                  <Flex className="justify-end gap-10 items-center">
                     {MenuItems.map((item, i) => (
                       <Navlinks
                         key={i}
@@ -36,10 +37,13 @@ const Navbar = () => {
                         {item.title}
                       </Navlinks>
                     ))}
+                    <div className="ml-4">
+                      <Buttons title="get started" />
+                    </div>
                   </Flex>
                 </Navitems>
               </div>
-              <Search />
+              {/* <Search /> */}
             </Flex>
           </Container>
         </div>
