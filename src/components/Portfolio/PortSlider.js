@@ -13,7 +13,7 @@ const PortSlider = () => {
       {portfolioData.map((item, i) => (
         <div
           key={i}
-          className="rounded-xl h-[520px] relative group overflow-hidden transition-all duration-500  hover:-translate-y-6  delay-300	ease-in-out"
+          className="rounded-xl  hover:border-linkColor hover:border-2 relative group overflow-hidden transition-all duration-500  hover:-translate-y-6  delay-300	ease-in-out box-border"
         >
           <div className="absolute inset-0 opacity-80 bg-[#000807] w-full h-full z-10 transform translate-y-full group-hover:translate-y-[58%] transition-transform duration-500 ease-out"></div>
           <Image
