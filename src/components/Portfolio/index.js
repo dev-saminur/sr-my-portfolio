@@ -19,7 +19,7 @@ const Portfolio = () => {
               <div className="grid col-start-4 col-end-10 mt-12 mb-7"></div>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-8">
+          <div>
             <PortSlider />
           </div>
         </div>
