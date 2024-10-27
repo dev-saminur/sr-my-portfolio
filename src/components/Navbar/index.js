@@ -6,7 +6,6 @@ import Logo from "../image/Logo.svg";
 import Navitems from "../LIsts/Navitems";
 import Navlinks from "../LIsts/Navlinks";
 import { MenuItems } from "./MenuData";
-
 import Link from "next/link";
 import Search from "./Search";
 import Buttons from "../Buttons/Button";
@@ -38,7 +37,7 @@ const Navbar = () => {
                       </Navlinks>
                     ))}
                     <div className="ml-4">
-                      <Buttons title="Contact me" />
+                      <Buttons href="/" title="Contact me" />
                     </div>
                   </Flex>
                 </Navitems>
