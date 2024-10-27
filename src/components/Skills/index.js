@@ -20,22 +20,27 @@ import Xd from "../image/icon/XD.png";
 import vsCode from "../image/icon/vscode.png";
 import gitHub from "../image/icon/gitHub.png";
 import Git from "../image/icon/git.png";
+import NoSql from "../image/icon/nosql.png";
+import MongoDb from "../image/icon/mongodb.png";
+import NodeJs from "../image/icon/nodejs.png";
+import Firebase from "../image/icon/firebase.png";
+import Express from "../image/icon/expressjs.png";
 
 const Skills = () => {
   return (
     <>
-      <div className="py-20 group hover:transition-all hover:ease-linear hover:duration-300">
+      <div className="py-20 group ">
         <Container>
           <div className="text-center">
             <Header title="my skills" />
             <div className="mt-12 mb-4 text-center">
-              <p className="relative inline-block text-3xl capitalize text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest pb-6 after:absolute after:bottom-0 after:left-0 after:content-[' '] after:w-full after:h-[8px] after:bg-designation-gradient before:absolute before:bottom-[-10px] before:z-10 before:right-[50%] before:left-[50%] before:content-[' '] before:w-[30px] before:h-[30px] before:bg-name-gradient before:rounded-full before:overflow-hidden">
+              <p className="relative inline-block text-3xl capitalize text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest pb-6 after:absolute after:bottom-0 after:left-0 after:content-[' '] after:w-full after:h-[6px] after:bg-designation-gradient before:absolute before:bottom-[-10px] before:z-10 before:right-[50%] before:left-[50%] before:content-[' '] before:w-[30px] before:h-[30px] before:bg-name-gradient before:rounded-full before:overflow-hidden">
                 Some of my Front-end Skills
               </p>
             </div>
           </div>
-          <div className=" text-center transition-all ease-linear duration-300">
-            <Flex className="justify-center items-center gap-x-[24px] my-10 group-hover:animate-moveAround transition-all ease-in-out duration-300 delay-300">
+          <div className="mt-16 text-center transition-all ease-linear duration-300">
+            <Flex className="justify-center items-center gap-x-[24px] my-10 animate-moveAround ">
               <Image
                 width={50}
                 height={50}
@@ -116,7 +121,7 @@ const Skills = () => {
                 className="animate-roundSpinReverse hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
               />
             </Flex>
-            <Flex className="justify-center items-center gap-x-[21px] my-10 group-hover:animate-moverightAround">
+            <Flex className="justify-center items-center gap-x-[21px] my-10 animate-moverightAround">
               <Image
                 width={50}
                 height={50}
@@ -163,6 +168,50 @@ const Skills = () => {
               />
             </Flex>
           </div>
+          <div className="my-16 mb-4 text-center">
+            <p className="relative inline-block text-3xl capitalize text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest pb-6 after:absolute after:bottom-0 after:left-0 after:content-[' '] after:w-full after:h-[6px] after:bg-designation-gradient before:absolute before:bottom-[-10px] before:z-10 before:right-[50%] before:left-[50%] before:content-[' '] before:w-[30px] before:h-[30px] before:bg-name-gradient before:rounded-full before:overflow-hidden">
+              Currently Learning
+            </p>
+          </div>
+          <Flex className="justify-center items-center gap-x-[30px] mb-5 mt-16 animate-moveAround ">
+            <Image
+              width={50}
+              height={50}
+              src={NodeJs}
+              alt="skill_1"
+              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+            />
+            <Image
+              width={50}
+              height={50}
+              src={Express}
+              alt="skill_1"
+              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 animate-roundSpin"
+            />
+            <Image
+              width={50}
+              height={50}
+              src={Firebase}
+              alt="skill_1"
+              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+            />
+          </Flex>
+          <Flex className="justify-center items-center gap-x-[24px] animate-moverightAround ">
+            <Image
+              width={50}
+              height={50}
+              src={NoSql}
+              alt="skill_1"
+              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+            />
+            <Image
+              width={50}
+              height={50}
+              src={MongoDb}
+              alt="skill_1"
+              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+            />
+          </Flex>
         </Container>
       </div>
     </>
