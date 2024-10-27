@@ -54,6 +54,7 @@ module.exports = {
         borderMove: "borderMove 0.75s linear infinite",
         gradientAnimate: "gradientAnimate 3s ease infinite",
         roundSpin: "roundSpin 4s linear infinite",
+        roundSpins: "roundSpin 18s linear infinite",
         roundSpinReverse: "roundSpin 4s linear infinite reverse",
         moveAround: "moveAround 4s linear infinite",
         moverightAround: "moveAround 4s linear infinite reverse",
