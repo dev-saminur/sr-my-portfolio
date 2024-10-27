@@ -16,6 +16,28 @@ module.exports = {
           "linear-gradient(to right, #12bcfe, #fad648, #15BEC5, #a767e5, #44ce7b)",
       },
       keyframes: {
+        moveAround: {
+          "0%": { transform: "translate(0, 0)" },
+          "25%": { transform: "translate(10px, 0)" },
+          "50%": { transform: "translate(10px, 10px)" },
+          "75%": { transform: "translate(0, 10px)" },
+          "100%": { transform: "translate(0, 0)" },
+        },
+        moverightAround: {
+          "0%": { transform: "translate(0, 0)" },
+          "25%": { transform: "translate(-10px, 0)" },
+          "50%": { transform: "translate(-10px, -10px)" },
+          "75%": { transform: "translate(0, -10px)" },
+          "100%": { transform: "translate(0, 0)" },
+        },
+        roundSpin: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
+        roundSpinReverse: {
+          "0%": { transform: "rotate(0deg)" },
+          "100%": { transform: "rotate(360deg)" },
+        },
         borderMove: {
           "0%": { transform: "translateX(-5%)" },
           "100%": { transform: "translateX(-25%)" },
@@ -31,6 +53,10 @@ module.exports = {
       animation: {
         borderMove: "borderMove 0.75s linear infinite",
         gradientAnimate: "gradientAnimate 3s ease infinite",
+        roundSpin: "roundSpin 4s linear infinite",
+        roundSpinReverse: "roundSpin 4s linear infinite reverse",
+        moveAround: "moveAround 4s linear infinite",
+        moverightAround: "moveAround 4s linear infinite reverse",
       },
 
       screens: {
