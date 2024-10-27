@@ -5,7 +5,9 @@ const Aboutpage = () => {
   return (
     <>
       <Layout>
-        <About />
+        <div className="pt-20 pb-10">
+          <About />
+        </div>
       </Layout>
     </>
   );
