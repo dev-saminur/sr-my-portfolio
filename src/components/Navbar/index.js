@@ -38,7 +38,7 @@ const Navbar = () => {
                       </Navlinks>
                     ))}
                     <div className="ml-4">
-                      <Buttons title="get started" />
+                      <Buttons title="Contact me" />
                     </div>
                   </Flex>
                 </Navitems>
