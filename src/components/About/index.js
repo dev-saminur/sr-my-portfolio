@@ -38,7 +38,12 @@ const About = () => {
               </p>
 
               <div className="mt-8">
-                <Buttons className="tracking-widest" title=" download my cv" />
+                <Buttons
+                  href="/cv/cv.pdf"
+                  download="cv.pdf"
+                  className="tracking-widest"
+                  title=" download my cv"
+                />
               </div>
             </div>
           </div>
