@@ -30,8 +30,8 @@ const Content = () => {
       </h4>
 
       <div className="mt-10">
-        <Buttons className="mr-10" title="Hire me" />
-        <Buttons title=" Contact Me" />
+        <Buttons href="/" className="mr-10" title="Hire me" />
+        <Buttons href="/" title=" Contact Me" />
       </div>
     </div>
   );
