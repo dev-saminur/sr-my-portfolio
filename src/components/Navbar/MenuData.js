@@ -8,16 +8,16 @@ export const MenuItems = [
     link: "/pages/about",
   },
   {
+    title: "Skills",
+    link: "/pages/skills",
+  },
+  {
     title: "Service",
-    link: "/",
+    link: "/pages/service",
   },
   {
     title: "Portfolio",
-    link: "/",
-  },
-  {
-    title: "Blog",
-    link: "/",
+    link: "/pages/portfolio",
   },
   {
     title: "Contact",
