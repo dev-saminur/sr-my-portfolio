@@ -13,7 +13,7 @@ module.exports = {
         "designation-gradient":
           "linear-gradient(to right, #15BEC5, #C0FFFF, #fad648, #a767e5, #44ce7b)",
         "pera-gradient":
-          "linear-gradient(to right, #12bcfe, #fad648, #15BEC5, #a767e5, #44ce7b)",
+          "linear-gradient(to right, #15BEC5, #fad648, #12bcfe, #44ce7b )",
         "header-gradient":
           "linear-gradient(to right,  #4fcf70, #fad648 , #12bcfe)",
       },
