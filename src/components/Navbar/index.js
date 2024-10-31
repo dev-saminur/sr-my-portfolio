@@ -13,7 +13,7 @@ import Buttons from "../Buttons/Button";
 const Navbar = () => {
   return (
     <>
-      <div className="fixed top-0 left-0 right-0  bg-[#000] z-50">
+      <div className="fixed top-0 left-0 right-0  bg-[#000] z-50 shadow-xl">
         <div className="bg-gray py-3">
           <Container>
             <Flex className="items-center justify-between">
@@ -37,7 +37,11 @@ const Navbar = () => {
                       </Navlinks>
                     ))}
                     <div className="ml-4">
-                      <Buttons href="/" title="Contact me" />
+                      <Buttons
+                        href="/"
+                        title="get started"
+                        className="capitalize"
+                      />
                     </div>
                   </Flex>
                 </Navitems>
