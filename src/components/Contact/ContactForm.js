@@ -20,7 +20,7 @@ const ContactForm = () => {
                       <h6 className="text-base font-normal opacity-80 text-headerColor mb-1 capitalize">
                         {item.subtitle}
                       </h6>
-                      <h4 className="text-2xl opacity-80 capitalize text-linkColor  font-bold tracking-wider  pb-2.5 border-b border-sectionColor">
+                      <h4 className="text-2xl opacity-80  text-linkColor  font-bold tracking-wider  pb-2.5 border-b border-sectionColor">
                         {item.title}
                       </h4>
                     </div>
