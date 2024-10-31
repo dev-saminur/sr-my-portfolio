@@ -21,6 +21,6 @@ export const MenuItems = [
   },
   {
     title: "Contact",
-    link: "/",
+    link: "/pages/contact",
   },
 ];
