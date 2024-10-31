@@ -4,25 +4,23 @@ import Flex from "../Flex/Flex";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import Link from "next/link";
 import { ContactDetailsData, ContactIconData } from "./ContactData";
+import Buttons from "../Buttons/Button";
 
 const ContactForm = () => {
   return (
     <>
-      <div className="py-10">
+      <div className="pt-10">
         <Container>
           <div className="mt-10">
-            <div className="grid grid-cols-2 gap-10">
-              <div className="mb-10">
-                <h4 className="text-5xl text-linkColor font-bold tracking-widest mb-10">
-                  Let&apos;s Work Together
-                </h4>
+            <div className="grid grid-cols-2 gap-12 ">
+              <div className="mb-10 ">
                 {ContactDetailsData.map((item, i) => (
                   <div key={i}>
                     <div className="mb-4">
-                      <h6 className="text-base font-normal text-linkColor mb-1 capitalize">
+                      <h6 className="text-base font-normal opacity-80 text-headerColor mb-1 capitalize">
                         {item.subtitle}
                       </h6>
-                      <h4 className="text-[28px] opacity-80 capitalize text-linkColor  font-bold tracking-widest  pb-2.5 border-b border-sectionColor">
+                      <h4 className="text-2xl opacity-80 capitalize text-linkColor  font-bold tracking-wider  pb-2.5 border-b border-sectionColor">
                         {item.title}
                       </h4>
                     </div>
@@ -30,15 +28,15 @@ const ContactForm = () => {
                 ))}
 
                 <div className="mb-4">
-                  <h6 className="text-base font-normal text-linkColor mb-4 capitalize">
+                  <h6 className="text-base font-normal opacity-80 text-headerColor mb-4 capitalize">
                     follow me:
                   </h6>
 
-                  <Flex className="gap-x-8">
+                  <Flex className="gap-x-6">
                     {ContactIconData.map((item, i) => (
                       <div
                         key={i}
-                        className="p-4 group bg-whiteColor rounded-xl"
+                        className="p-3 group bg-whiteColor rounded-xl"
                       >
                         <Link
                           href="/"
@@ -51,11 +49,43 @@ const ContactForm = () => {
                   </Flex>
                 </div>
               </div>
-              <div className="bg-yellow-400">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam,
-                magnam molestiae. Enim necessitatibus similique neque, nobis
-                fugiat ipsum odio numquam suscipit, cumque nam distinctio
-                voluptates iusto ad repellat odit libero?
+
+              <div>
+                <div className="mt-4 text-left rounded-xl shadow-lg">
+                  <form>
+                    <div className="w-full flex  justify-between gap-6">
+                      <input
+                        type="text"
+                        placeholder="Enter Your Name"
+                        className="border border-gray  rounded-lg px-3 py-3 mb-5 text-base text-sectionColor w-[50%] outline-none bg-gray dark:border-gray-500 dark:bg-gray-900"
+                      />
+                      <input
+                        type="email"
+                        placeholder="Enter Your Email"
+                        className="border border-gray  rounded-lg px-3 py-3 mb-5 text-base text-sectionColor w-[50%] outline-none bg-gray dark:border-gray-500 dark:bg-gray-900"
+                      />
+                    </div>
+                    <div className="w-full">
+                      <input
+                        type="text"
+                        placeholder="Enter Your Subject"
+                        className="border border-gray  rounded-lg px-3 py-3 mb-5 text-base text-sectionColor w-full outline-none bg-gray dark:border-gray-500 dark:bg-gray-900"
+                      />
+                    </div>
+                    <div className="w-full">
+                      <textarea
+                        name="message"
+                        id="submit"
+                        placeholder="Enter Your Message"
+                        className="border border-gray rounded-lg px-3 py-3 mb-5 text-base text-sectionColor w-full outline-none bg-gray  dark:border-gray-500 dark:bg-gray-900"
+                      ></textarea>
+                    </div>
+                  </form>
+
+                  <div className="mt-2.5">
+                    <Buttons href="/" title="send message" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
