@@ -15,7 +15,7 @@ module.exports = {
         "pera-gradient":
           "linear-gradient(to right, #12bcfe, #fad648, #15BEC5, #a767e5, #44ce7b)",
         "header-gradient":
-          "linear-gradient(to right,  #4fcf70, #fad648 , #a767e5)",
+          "linear-gradient(to right,  #4fcf70, #fad648 , #12bcfe)",
       },
       keyframes: {
         moveAround: {
