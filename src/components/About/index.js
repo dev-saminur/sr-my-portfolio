@@ -24,14 +24,14 @@ const About = () => {
             </div>
             <div className="left">
               <Header title=" About me!" className="mb-6" />
-              <p className="text-whiteColor text-base font-normal mb-4 text-justify">
+              <p className="text-headerColor opacity-70 text-[17px] tracking-wider font-normal mb-4 text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in
                 eos saepe ipsa cupiditate accusantium voluptatibus quidem nam,
                 reprehenderit, et necessitatibus adipisci labore sit veritatis
                 vero tempore sequi at sed facere dolore. Quae obcaecati eius
                 quasi doloribus illum minus fugit.
               </p>
-              <p className="text-whiteColor text-base font-normal text-justify">
+              <p className="text-headerColor opacity-70 text-[17px] tracking-wider font-normal text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in
                 eos saepe ipsa cupiditate accusantium voluptatibus quidem nam,
                 reprehenderit,
