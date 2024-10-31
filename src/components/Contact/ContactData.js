@@ -2,15 +2,15 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 export const ContactDetailsData = [
   {
-    subtitle: "address",
+    subtitle: "address :",
     title: " jamalpur, mymensingh, bangladesh",
   },
   {
-    subtitle: "call me",
+    subtitle: "call me :",
     title: "+88 01742 74 96 93",
   },
   {
-    subtitle: "mail me",
+    subtitle: "mail me :",
     title: "saminur9124@gmail.com",
   },
 ];
