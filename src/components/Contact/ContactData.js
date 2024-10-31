@@ -3,7 +3,7 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 export const ContactDetailsData = [
   {
     subtitle: "address :",
-    title: " jamalpur, mymensingh, bangladesh",
+    title: " Jamalpur, Mymensingh, Bangladesh",
   },
   {
     subtitle: "call me :",
