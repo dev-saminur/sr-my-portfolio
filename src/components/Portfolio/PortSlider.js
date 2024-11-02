@@ -26,23 +26,23 @@ const PortSlider = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: true,
-          dots: true,
+          initialSlide: 1,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
     ],
@@ -54,9 +54,9 @@ const PortSlider = () => {
         {portfolioData.map((item, i) => (
           <div
             key={i}
-            className="rounded-xl h-[250px] lg:h-[440px] gap-5  hover:border-linkColor hover:border-2 relative group overflow-hidden transition-all duration-500  hover:-translate-y-6  delay-300	ease-in-out box-border"
+            className="rounded-xl h-[250px] sm:h-[440px] md:h-[300px]  lg:h-[440px] gap-5  hover:border-linkColor hover:border-2 relative group overflow-hidden transition-all duration-500  hover:-translate-y-6  delay-300	ease-in-out box-border"
           >
-            <div className="absolute inset-0 opacity-80 bg-[#000807] w-full h-full z-10 transform translate-y-full group-hover:translate-y-[58%] transition-transform duration-500 ease-out"></div>
+            <div className="absolute inset-0 opacity-80 bg-[#000807] w-full h-full z-10 transform translate-y-full group-hover:translate-y-[100%] lg:group-hover:translate-y-[58%] transition-transform duration-500 ease-out"></div>
             <Image
               src={item.image}
               alt="coding"
@@ -64,12 +64,12 @@ const PortSlider = () => {
               height={600}
               className="hover:rotate-[5deg] group-hover:scale-125  rounded-md transition-all duration-300 ease-linear h-full"
             />
-            <div className="px-10 absolute text-center  group-hover:bottom-[5%]  w-full group-hover:block z-50 transition-transform duration-500 ease-out">
-              <Flex className="justify-center items-center gap-8">
+            <div className="px-10 absolute text-center group-hover:bottom-[0%]  lg:group-hover:bottom-[5%]  w-full group-hover:block z-50 transition-transform duration-500 ease-out">
+              <Flex className="flex-wrap lg:flex-nowrap justify-center items-center gap-3 lg:gap-8">
                 <Link
                   target="_blank"
                   href={item.githublink}
-                  className="text-xl font-bold  capitalize "
+                  className="text-base lg:text-xl font-bold  capitalize "
                 >
                   <div className="flex items-center justify-center">
                     <div className="relative group">
@@ -91,7 +91,7 @@ const PortSlider = () => {
                 <Link
                   target="_blank"
                   href={item.livelink}
-                  className="text-xl font-bold text-white  capitalize"
+                  className="text-base lg:text-xl font-bold text-white  capitalize"
                 >
                   <div className="flex items-center justify-center">
                     <div className="relative group">
@@ -111,7 +111,7 @@ const PortSlider = () => {
                   </div>
                 </Link>
               </Flex>
-              <h4 className="text-2xl text-transparent bg-clip-text bg-designation-gradient capitalize  relative text-sectionColor font-bold  leading-[1.2] before:absolute before:bottom-0 before:right-[8%] pb-6 before:content-['']  before:w-[35px] before:h-[20px]  before:bg-name-gradient   inline-block before:rounded-t-lg  before:rounded-b-2xl before:rounded-l-3xl before:rounded-r-lg mt-6">
+              <h4 className="text-base lg:text-2xl text-transparent bg-clip-text bg-designation-gradient capitalize  relative text-sectionColor font-bold  leading-[1.2] before:absolute before:bottom-0 before:right-[8%] pb-6 before:content-['']  before:w-[35px] before:h-[20px]  before:bg-name-gradient   inline-block before:rounded-t-lg  before:rounded-b-2xl before:rounded-l-3xl before:rounded-r-lg mt-6">
                 {item.title}
               </h4>
             </div>
