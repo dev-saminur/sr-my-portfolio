@@ -14,7 +14,7 @@ const About = () => {
             <div className="left ">
               <Image src={AboutBg} width={550} height={700} alt="about-bg" />
             </div>
-            <div className="right text-center lg:text-start">
+            <div className="right text-center lg:text-start lg:mt-0 mt-12">
               <Header title=" About me!" className="mb-6" />
               <p className="text-headerColor opacity-70 text-sm lg:text-[17px] tracking-wider font-normal mb-4 text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in
