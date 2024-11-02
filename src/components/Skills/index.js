@@ -34,182 +34,182 @@ const Skills = () => {
           <div className="text-center">
             <Header title="my skills" />
             <div className="mt-12 mb-4 text-center">
-              <p className="relative inline-block text-3xl capitalize text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest pb-6 after:absolute after:bottom-0 after:left-0 after:content-[' '] after:w-full after:h-[6px] after:bg-designation-gradient before:absolute before:bottom-[-10px] before:z-10 before:right-[50%] before:left-[50%] before:content-[' '] before:w-[30px] before:h-[30px] before:bg-name-gradient before:rounded-full before:overflow-hidden">
+              <p className="relative inline-block text-[22px] lg:text-3xl capitalize text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest pb-6 after:absolute after:bottom-0 after:left-0 after:content-[' '] after:w-full after:h-[6px] after:bg-designation-gradient before:absolute before:bottom-[-10px] before:z-10 before:right-[50%] before:left-[50%] before:content-[' '] before:w-[30px] before:h-[30px] before:bg-name-gradient before:rounded-full before:overflow-hidden">
                 Some of my Front-end Skills
               </p>
             </div>
           </div>
           <div className="mt-16 text-center transition-all ease-linear duration-300">
-            <Flex className="justify-center items-center gap-x-[24px] my-10 animate-moveAround ">
+            <Flex className="justify-center items-center gap-x-2.5 lg:gap-x-[24px] my-10 animate-moveAround ">
               <Image
                 width={50}
                 height={50}
                 src={Html}
                 alt="skill_1"
-                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300  w-[35px] lg:w-[50px]"
               />
               <Image
                 width={50}
                 height={50}
                 src={Css}
                 alt="skill_1"
-                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300  w-[35px] lg:w-[50px]"
               />
               <Image
                 width={50}
                 height={50}
                 src={JavaScript}
                 alt="skill_1"
-                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300  w-[35px] lg:w-[50px]"
               />
               <Image
                 width={67}
                 height={50}
                 src={Sass}
                 alt="skill_1"
-                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300  w-[47px] lg:w-[67px]"
               />
               <Image
                 width={67}
                 height={50}
                 src={Bootstrap}
                 alt="skill_1"
-                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300  w-[47px] lg:w-[67px]"
               />
               <Image
                 width={67}
                 height={50}
                 src={TailwindCss}
                 alt="skill_1"
-                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300  w-[47px] lg:w-[67px]"
               />
             </Flex>
-            <Flex className="justify-center items-center gap-x-[26px] ">
+            <Flex className="justify-center items-center gap-x-3.5 lg:gap-x-[26px] ">
               <Image
                 width={50}
                 height={50}
                 src={Reacts}
                 alt="skill_1"
-                className="animate-roundSpin hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="animate-roundSpin hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[35px] lg:w-[50px]"
               />
               <Image
                 width={50}
                 height={50}
                 src={Nextjs}
                 alt="skill_1"
-                className="animate-moveAround infinite reverse hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="animate-moveAround infinite reverse hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[35px] lg:w-[50px]"
               />
               <Image
                 width={50}
                 height={50}
                 src={Redux}
                 alt="skill_1"
-                className="animate-roundSpin  hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="animate-roundSpin  hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[35px] lg:w-[50px]"
               />
               <Image
                 width={50}
                 height={50}
                 src={Mui}
                 alt="skill_1"
-                className="animate-moveAround  hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="animate-moveAround  hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[35px] lg:w-[50px]"
               />
               <Image
                 width={50}
                 height={50}
                 src={ChakraUi}
                 alt="skill_1"
-                className="animate-roundSpinReverse hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="animate-roundSpinReverse hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[35px] lg:w-[50px]"
               />
             </Flex>
-            <Flex className="justify-center items-center gap-x-[21px] my-10 animate-moverightAround">
+            <Flex className="justify-center items-center gap-x-2 lg:gap-x-[21px] my-10 animate-moverightAround">
               <Image
                 width={50}
                 height={50}
                 src={Pshop}
                 alt="skill_1"
-                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[33px] lg:w-[50px]"
               />
               <Image
                 width={50}
                 height={50}
                 src={Figma}
                 alt="skill_1"
-                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[33px] lg:w-[50px]"
               />
               <Image
                 width={50}
                 height={50}
                 src={Xd}
                 alt="skill_1"
-                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[33px] lg:w-[50px]"
               />
               <Image
                 width={50}
                 height={50}
                 src={vsCode}
                 alt="skill_1"
-                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[33px] lg:w-[50px]"
               />
             </Flex>
-            <Flex className="justify-center items-center gap-x-[50px] ">
+            <Flex className="justify-center items-center gap-x-6 lg:gap-x-[50px] ">
               <Image
                 width={50}
                 height={50}
                 src={gitHub}
                 alt="skill_1"
-                className="animate-roundSpin hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="animate-roundSpin hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[35px] lg:w-[50px]"
               />
               <Image
                 width={50}
                 height={50}
                 src={Git}
                 alt="skill_1"
-                className="animate-roundSpinReverse group-hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+                className="animate-roundSpinReverse group-hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[35px] lg:w-[50px]"
               />
             </Flex>
           </div>
           <div className="my-16 mb-4 text-center">
-            <p className="relative inline-block text-3xl capitalize text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest pb-6 after:absolute after:bottom-0 after:left-0 after:content-[' '] after:w-full after:h-[6px] after:bg-designation-gradient before:absolute before:bottom-[-10px] before:z-10 before:right-[50%] before:left-[50%] before:content-[' '] before:w-[30px] before:h-[30px] before:bg-name-gradient before:rounded-full before:overflow-hidden">
+            <p className="relative inline-block text-[22px] lg:text-3xl capitalize text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest pb-6 after:absolute after:bottom-0 after:left-0 after:content-[' '] after:w-full after:h-[6px] after:bg-designation-gradient before:absolute before:bottom-[-10px] before:z-10 before:right-[50%] before:left-[50%] before:content-[' '] before:w-[30px] before:h-[30px] before:bg-name-gradient before:rounded-full before:overflow-hidden">
               Currently Learning
             </p>
           </div>
-          <Flex className="justify-center items-center gap-x-[30px] mb-5 mt-16 animate-moveAround ">
+          <Flex className="justify-center items-center gap-x-6 lg:gap-x-[30px] mb-5 mt-16 animate-moveAround ">
             <Image
               width={50}
               height={50}
               src={NodeJs}
               alt="skill_1"
-              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[40px] lg:w-[50px] "
             />
             <Image
               width={50}
               height={50}
               src={Express}
               alt="skill_1"
-              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 animate-roundSpin"
+              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[40px] lg:w-[50px] animate-roundSpin"
             />
             <Image
               width={50}
               height={50}
               src={Firebase}
               alt="skill_1"
-              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[40px] lg:w-[50px] "
             />
           </Flex>
-          <Flex className="justify-center items-center gap-x-[24px] animate-moverightAround ">
+          <Flex className="justify-center items-center gap-x-4 lg:gap-x-[24px] animate-moverightAround ">
             <Image
               width={50}
               height={50}
               src={NoSql}
               alt="skill_1"
-              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[40px] lg:w-[50px] "
             />
             <Image
               width={50}
               height={50}
               src={MongoDb}
               alt="skill_1"
-              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 "
+              className="hover:z-10 hover:scale-110  hover:rotate-6 transition-all ease-linear duration-300 w-[40px] lg:w-[50px] "
             />
           </Flex>
         </Container>
