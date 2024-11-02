@@ -9,7 +9,7 @@ import Buttons from "../Buttons/Button";
 const ContactForm = () => {
   return (
     <>
-      <div className="pt-10">
+      <div className="pt-0 lg:pt-10">
         <Container>
           <div className="mt-10">
             <div className="flex flex-col-reverse  lg:grid  lg:grid-cols-2 gap-12 ">
