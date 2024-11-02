@@ -12,18 +12,16 @@ const Service = () => {
         <Container>
           <div className="text-center mb-10">
             <Header title="My services" />
-            <div className="grid grid-cols-12">
-              <div className="grid col-start-4 col-end-10 mt-12 mb-4">
-                <p className="text-[38px] px-10 text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest">
-                  Failure is The Power{" "}
-                  <span className="bg-designation-gradient text-transparent  bg-clip-text ">
-                    that Gives Success !
-                  </span>
-                </p>
-              </div>
+            <div className="text-center mt-12 mb-4">
+              <p className="text-[22px] lg:text-[38px]  px-0 lg:px-[355px] text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest">
+                Failure is The Power{" "}
+                <span className="bg-designation-gradient text-transparent  bg-clip-text ">
+                  that Gives Success !
+                </span>
+              </p>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {serviceData.map((item, i) => (
               <div
                 key={i}
@@ -38,7 +36,7 @@ const Service = () => {
                       alt="coding"
                     />
                   </div>
-                  <h4 className=" text-[28px] font-semibold text-linkColor capitalize mb-5 text-center group-hover:bg-name-gradient group-hover:text-transparent  group-hover:bg-clip-text group-hover:transition-all group-hover:duration-300 group-hover:ease-linear">
+                  <h4 className="text-2xl lg:text-[28px] font-semibold text-linkColor capitalize mb-5 text-center group-hover:bg-name-gradient group-hover:text-transparent  group-hover:bg-clip-text group-hover:transition-all group-hover:duration-300 group-hover:ease-linear">
                     {item.title}
                   </h4>
                   <p className="text-base font-normal leading-tight text-headerColor mb-5 text-center group-hover:bg-pera-gradient group-hover:text-transparent  group-hover:bg-clip-text group-hover:font-semibold group-hover:transition-all group-hover:duration-300 group-hover:ease-linear	">
