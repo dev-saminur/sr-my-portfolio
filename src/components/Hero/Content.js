@@ -6,13 +6,13 @@ import { Typewriter } from "react-simple-typewriter";
 const Content = () => {
   return (
     <div>
-      <h3 className="text-3xl font-semibold text-transparent  bg-clip-text bg-pera-gradient ">
-        Hi ! I’m{" "}
+      <h3 className="text-2xl lg:text-3xl font-semibold text-transparent  bg-clip-text bg-pera-gradient ">
+        Hi ! I&apos;m
       </h3>
-      <h2 className=" text-[64px]  font-bold mb-1 text-transparent  bg-clip-text bg-name-gradient ">
+      <h2 className="text-[30px] lg:text-[64px]  font-bold my-3 text-transparent  bg-clip-text bg-name-gradient ">
         Md. Saminur Islam
       </h2>
-      <h4 className="text-4xl font-semibold  bg-pera-gradient inline-block py-4 px-10 capitalize">
+      <h4 className="text-2xl lg:text-4xl font-semibold  bg-pera-gradient inline-block px-4 py-4 lg:px-10 capitalize">
         <Typewriter
           words={[
             "Front-end developer",
@@ -29,8 +29,8 @@ const Content = () => {
         />
       </h4>
 
-      <div className="mt-10">
-        <Buttons href="/" className="mr-10" title="Hire me" />
+      <div className="mt-10 ">
+        <Buttons href="/" className="mr-[9px] lg:mr-10" title="Hire me" />
         <Buttons href="/" title=" Contact Me" />
       </div>
     </div>
