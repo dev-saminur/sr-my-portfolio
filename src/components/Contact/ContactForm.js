@@ -12,7 +12,7 @@ const ContactForm = () => {
       <div className="pt-10">
         <Container>
           <div className="mt-10">
-            <div className="grid grid-cols-2 gap-12 ">
+            <div className="flex flex-col-reverse  lg:grid  lg:grid-cols-2 gap-12 ">
               <div className="mb-10 ">
                 {ContactDetailsData.map((item, i) => (
                   <div key={i}>
@@ -20,7 +20,7 @@ const ContactForm = () => {
                       <h6 className="text-base font-normal opacity-80 text-headerColor mb-1 capitalize">
                         {item.subtitle}
                       </h6>
-                      <h4 className="text-2xl opacity-80  text-linkColor  font-bold tracking-wider  pb-2.5 border-b border-sectionColor">
+                      <h4 className="text-xl lg:text-2xl opacity-80  text-linkColor  font-bold tracking-wider  pb-2.5 border-b border-sectionColor">
                         {item.title}
                       </h4>
                     </div>
@@ -53,16 +53,16 @@ const ContactForm = () => {
               <div>
                 <div className="mt-4 text-left rounded-xl shadow-lg">
                   <form>
-                    <div className="w-full flex  justify-between gap-6">
+                    <div className="w-full flex-wrap lg:flex-nowrap lg:flex  justify-between gap-6">
                       <input
                         type="text"
                         placeholder="Enter Your Name"
-                        className="border border-gray  rounded-lg px-3 py-3 mb-5 text-base text-sectionColor w-[50%] outline-none bg-gray dark:border-gray-500 dark:bg-gray-900"
+                        className="border border-gray  rounded-lg px-3 py-3 mb-5 text-base text-sectionColor w-full lg:w-[50%] outline-none bg-gray dark:border-gray-500 dark:bg-gray-900"
                       />
                       <input
                         type="email"
                         placeholder="Enter Your Email"
-                        className="border border-gray  rounded-lg px-3 py-3 mb-5 text-base text-sectionColor w-[50%] outline-none bg-gray dark:border-gray-500 dark:bg-gray-900"
+                        className="border border-gray  rounded-lg px-3 py-3 mb-5 text-base text-sectionColor w-full lg:w-[50%] outline-none bg-gray dark:border-gray-500 dark:bg-gray-900"
                       />
                     </div>
                     <div className="w-full">
