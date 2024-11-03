@@ -9,11 +9,12 @@ import { MenuItems } from "./MenuData";
 import Link from "next/link";
 import Search from "./Search";
 import Buttons from "../Buttons/Button";
+import ResponsiveNav from "./ResponsiveNav";
 
 const Navbar = () => {
   return (
     <>
-      <div className="hidden lg:block fixed top-0 left-0 right-0  bg-[#000] z-50 shadow-xl">
+      <div className="hidden  lg:block fixed top-0 left-0 right-0  bg-[#000] z-50 shadow-xl">
         <div className="bg-gray py-3">
           <Container>
             <Flex className="items-center justify-between">
@@ -51,6 +52,9 @@ const Navbar = () => {
           </Container>
         </div>
       </div>
+
+     
+      <ResponsiveNav />
     </>
   );
 };
