@@ -6,7 +6,7 @@ import ProfileImg from "../image/profile.png";
 
 const Hero = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black lg:pt-0 pt-[90px]">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-0 lg:gap-x-8 xl:gap-x-0">
           <div>
