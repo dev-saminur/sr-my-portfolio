@@ -29,7 +29,7 @@ import Express from "../image/icon/expressjs.png";
 const Skills = () => {
   return (
     <>
-      <div className="py-20 group ">
+      <div className="py-20  xl:py-10 group ">
         <Container>
           <div className="text-center">
             <Header title="my skills" />
