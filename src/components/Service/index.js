@@ -8,12 +8,12 @@ import { serviceData } from "./serviceData";
 const Service = () => {
   return (
     <>
-      <div className="py-5">
+      <div className="py-5 pb-0 lg:pb-10 xl:pb-0">
         <Container>
           <div className="text-center mb-10">
             <Header title="My services" />
             <div className="text-center mt-12 mb-4">
-              <p className="text-[22px]  sm:text-[38px]  px-0 lg:px-[355px] text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest">
+              <p className="text-[22px]  sm:text-[38px]  px-0 lg:px-[200px] xl:px-[355px] text-center bg-name-gradient text-transparent  bg-clip-text font-bold tracking-widest">
                 Failure is The Power{" "}
                 <span className="bg-designation-gradient text-transparent  bg-clip-text ">
                   that Gives Success !
