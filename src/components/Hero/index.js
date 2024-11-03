@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="bg-black">
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-x-0 lg:gap-x-8 xl:gap-x-0">
           <div>
             <Content />
           </div>
