@@ -10,20 +10,20 @@ const About = () => {
     <>
       <div className=" pb-0 lg:py-20">
         <Container>
-          <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 items-center">
+          <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-x-0 lg:gap-x-10 xl:gap-x-0 items-center">
             <div className="left ">
               <Image src={AboutBg} width={550} height={700} alt="about-bg" />
             </div>
             <div className="right text-center lg:text-start lg:mt-0 mt-12">
               <Header title=" About me!" className="mb-6" />
-              <p className="text-headerColor opacity-70 text-sm lg:text-[17px] tracking-wider font-normal mb-4 text-justify">
+              <p className="text-headerColor opacity-70 text-sm lg:text-[17px] pr-0 lg:pr-8 xl:pr-0 tracking-wider leading-6 font-normal mb-4 text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in
                 eos saepe ipsa cupiditate accusantium voluptatibus quidem nam,
                 reprehenderit, et necessitatibus adipisci labore sit veritatis
                 vero tempore sequi at sed facere dolore. Quae obcaecati eius
                 quasi doloribus illum minus fugit.
               </p>
-              <p className="text-headerColor opacity-70 text-sm lg:text-[17px] tracking-wider font-normal text-justify">
+              <p className="text-headerColor opacity-70 text-sm lg:text-[17px] pr-0 lg:pr-8 xl:pr-0 tracking-wider leading-6 font-normal text-justify">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in
                 eos saepe ipsa cupiditate accusantium voluptatibus quidem nam,
                 reprehenderit,
