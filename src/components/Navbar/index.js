@@ -24,7 +24,7 @@ const Navbar = () => {
               </div>
               <div className="w-[70%]">
                 <Navitems>
-                  <Flex className="justify-end gap-10 items-center">
+                  <Flex className="justify-end gap-10 lg:gap-6 xl:gap-10 items-center">
                     {MenuItems.map((item, i) => (
                       <Navlinks
                         key={i}
