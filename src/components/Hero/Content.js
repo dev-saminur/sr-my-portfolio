@@ -36,7 +36,7 @@ const Content = () => {
           className="mr-[9px] sm:mr-6  lg:mr-10"
           title="Hire me"
         />
-        <Buttons  href="https://www.linkedin.com/in/md-saminur-islam12/" title=" Contact Me" />
+        <Buttons  href="https://wa.me/8801742749693" title=" Contact Me" />
       </div>
     </div>
   );
