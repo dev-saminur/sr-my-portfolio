@@ -31,11 +31,12 @@ const Content = () => {
 
       <div className="mt-10 ">
         <Buttons
-          href="/"
+          href="https://www.fiverr.com/users/saminurislam12/"
+        
           className="mr-[9px] sm:mr-6  lg:mr-10"
           title="Hire me"
         />
-        <Buttons href="/" title=" Contact Me" />
+        <Buttons  href="https://www.linkedin.com/in/md-saminur-islam12/" title=" Contact Me" />
       </div>
     </div>
   );
