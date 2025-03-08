@@ -16,17 +16,14 @@ const About = () => {
             </div>
             <div className="right text-center lg:text-start lg:mt-0 mt-12">
               <Header title=" About me!" className="mb-6" />
-              <p className="text-headerColor opacity-70 text-sm lg:text-[17px] pr-0 lg:pr-8 xl:pr-0 tracking-wider leading-6 font-normal mb-4 text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in
-                eos saepe ipsa cupiditate accusantium voluptatibus quidem nam,
-                reprehenderit, et necessitatibus adipisci labore sit veritatis
-                vero tempore sequi at sed facere dolore. Quae obcaecati eius
-                quasi doloribus illum minus fugit.
+              <p className="text-headerColor opacity-70 text-sm lg:text-[17px] pr-0 lg:pr-8 xl:pr-0 tracking-wider leading-6 font-normal  text-justify">
+              Hi, I&apos;m Saminur, a passionate Front-end Developer skilled in React.js, Next.js, Tailwind CSS, and Bootstrap. I specialize in creating responsive, user-friendly websites with seamless user experiences. By leveraging Next.js, I build fast and SEO-friendly applications using SSR and SSG techniques.
+              </p>
+              <p className="text-headerColor opacity-70 text-sm lg:text-[17px] pr-0 lg:pr-8 xl:pr-0 tracking-wider my-4 leading-6 font-normal text-justify">
+              Along with front-end development, I am also experienced in the MERN Stack, including MongoDB, Express.js, Node.js, and React.js, enabling me to deliver complete web solutions.
               </p>
               <p className="text-headerColor opacity-70 text-sm lg:text-[17px] pr-0 lg:pr-8 xl:pr-0 tracking-wider leading-6 font-normal text-justify">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in
-                eos saepe ipsa cupiditate accusantium voluptatibus quidem nam,
-                reprehenderit,
+              I am always learning and evolving with the latest web technologies, striving to create clean, scalable, and performance-driven applications.
               </p>
 
               <div className="mt-8 mb-10 lg:mb-0">
