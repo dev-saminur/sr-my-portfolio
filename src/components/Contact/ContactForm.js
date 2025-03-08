@@ -39,7 +39,8 @@ const ContactForm = () => {
                         className="p-3 group bg-whiteColor rounded-xl"
                       >
                         <Link
-                          href="/"
+                          target="_blank"
+                          href={item.link}
                           className="text-2xl text-gray group-hover:text-[#4d95f4] transition-all ease-in-out duration-200"
                         >
                           {item.icon}
