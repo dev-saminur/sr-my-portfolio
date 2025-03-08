@@ -16,15 +16,15 @@ export const ContactDetailsData = [
 ];
 export const ContactIconData = [
   {
-    link: "/",
+    link: "https://www.facebook.com/shaminurislam.rakib.7/",
     icon: <FaFacebookF />,
   },
   {
-    link: "/",
+    link: "https://www.linkedin.com/in/md-saminur-islam12/",
     icon: <FaLinkedinIn />,
   },
   {
-    link: "/",
+    link: "https://x.com/saminur9125",
     icon: <FaTwitter />,
   },
 ];
